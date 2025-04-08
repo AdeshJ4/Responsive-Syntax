@@ -83,7 +83,7 @@ body{
   background-color: var(--footer-bg);
 }
 
-
+/* //Only apply the following styles if the screen size is 768px or smaller */
 @media screen and (max-width: 768px){
   .navbar, .row{
       flex-direction: column;
